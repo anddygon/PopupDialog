@@ -21,7 +21,10 @@
   "source_files": "PopupDialog/Classes/**/*",
   "dependencies": {
     "TZStackView": [
-
+      "~> 1.3.0"
     ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
   }
 }
